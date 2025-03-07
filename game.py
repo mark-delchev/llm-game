@@ -44,3 +44,15 @@ def generate_random_name(first_names_file, last_names_file):
         return f"An error occurred: {e}"
 
 
+class Team:
+    def __init__(self, players: list = None):
+        self.players = players
+
+    def print_team(self):
+        for player in self.players:
+            print(player)
+
+
+
+
+
